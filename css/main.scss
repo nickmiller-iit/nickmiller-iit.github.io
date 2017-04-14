@@ -664,46 +664,111 @@ $yellowgreen:	#9acd32;
 
 /* End colour definitions */
 
+
+/*Colour palette to use*/
+
+$basic-text: $black;
+$link-text: $steelblue3;
+$visited-link-text: $steelblue4;
+$nav-link: $white;
+$nav-bg: $steelblue3;
+$nav-hover: $steelblue4;
+
+
+/*End palette*/
+
+/*Font sets*/
+
+$sans-set: Helvetica, Arial, sans-serif;
+
+$serif-set: Times, serif;
+
+/*End font sets*/
+
 body {
-    margin: 60px auto;
+	margin: 60px auto;
     width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
+	font-family: $sans-set;
+	font-size: 1.2em;
+	color: $basic-text;
+	
+	a {
+		text-decoration: none;
+		color: $link-text;
+	}
+	
 
-ul.posts { 
+	a:hover {
+    	text-decoration: underline;
+	}
+	
+	a:visited {
+		color: $visited-link-text;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+	
+	h2 {
+		font-size: 1.5em;
+		font-style: italic;
+	}
+	
+	ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
+	}
 
-ul.posts li {
-    list-style: none;
+	ul.posts li {
+ 	   list-style: none;
+	}
+	
+
+
+	/*Navigation bar*/
+	nav {
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: $nav-bg;
+		}
+		
+		li {
+			float: left;
+		}
+		
+		li a {
+			display: block;
+			color: $nav-link;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;		}
+		
+		a {
+			padding: 8px;
+			background: $nav-bg;
+			display: block;
+		}
+		
+		li a:visited {
+			color: $nav-link;
+		}
+		
+		li a:hover {
+			background-color: $nav-hover;
+			text-decoration: none;
+		}
+	}
+
+
+	//footer
+	footer {
+    	border-top: 1px solid #d5d5d5;
+    	font-size: .8em;	
+	}
+	//end footer
+
 }
