@@ -16,7 +16,7 @@ title: Lab members
 
 **Gérald Bermond**
 
-![Gérald Bermond](./anon.png)
+![Gérald Bermond](./bermond.png)
 
 ## Graduate students
 
