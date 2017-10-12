@@ -26,7 +26,7 @@ title: Lab members
 
 **Dimpal Lata**
 
-![Dimpal Lata](./anon.png)
+![Dimpal Lata](./lata.png)
 
 ## Undergraduates
 
