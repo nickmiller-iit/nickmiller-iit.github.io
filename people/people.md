@@ -32,4 +32,4 @@ title: Lab members
 
 **Michael Folk**
 
-![Michael Folk](./anon.png)
+![Michael Folk](./folk.png)
