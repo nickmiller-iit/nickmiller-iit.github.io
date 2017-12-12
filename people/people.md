@@ -16,7 +16,7 @@ title: Lab members
 
 **Gérald Bermond**
 
-![Gérald Bermond](./anon.png)
+![Gérald Bermond](./bermond.png)
 
 ## Graduate students
 
@@ -26,10 +26,10 @@ title: Lab members
 
 **Dimpal Lata**
 
-![Dimpal Lata](./anon.png)
+![Dimpal Lata](./lata.png)
 
 ## Undergraduates
 
 **Michael Folk**
 
-![Michael Folk](./anon.png)
+![Michael Folk](./folk.png)
